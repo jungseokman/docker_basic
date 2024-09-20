@@ -1,0 +1,45 @@
+# Node modules 폴더 (외부 패키지들)
+node_modules/
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경 변수 설정 파일 (API 키 등 민감한 정보 포함)
+.env
+
+# 디렉터리별 설정 파일 (IDE나 에디터 관련)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 빌드 디렉터리 (프로덕션 빌드 결과물)
+dist/
+build/
+
+# 캐시 및 임시 파일
+npm-cache/
+.pnpm-store/
+.cache/
+.tmp/
+
+# OS에 의해 생성된 파일
+.DS_Store
+Thumbs.db
+
+# 테스트 및 커버리지 결과물
+coverage/
+.nyc_output/
+
+# PM2나 기타 프로세스 매니저의 설정 파일
+pm2-log.json
+pids/
+logs/
+
+# Git에서 사용할 수 있는 일부 유틸리티 파일
+*.tgz
+*.lock
